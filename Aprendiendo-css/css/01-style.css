@@ -1,0 +1,109 @@
+*{
+
+margin: 0px;
+padding: 0px;
+
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#container{
+
+width: 1100px;
+margin: auto;
+border: 1px solid black;
+
+}
+
+#content{
+
+float: left;
+width: calc(80% - 80px);
+background-color: green;
+min-height: 500px;
+padding: 40px;
+
+}
+
+aside{
+
+    float: left;
+    width: calc(20% - 20px); /*Aquì estamos diciendo del 20% de ancho quitale 10px de un lado y 10px de otro lado, por que el padding aumenta el tamaño del aside,pero al restarselo se soluciona*/
+    background: orange;
+    min-height: 500px;
+    padding: 10px;
+    
+    /*Tambien podemos usar box-sizing:border-box;*/   
+}
+
+header{
+
+    background: red;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border: 1px solid black;
+}
+
+nav{
+background-color: #4656;
+height: 50px;
+border-bottom: 1px solid black;
+
+}
+
+nav ul li{ 
+
+float: left;
+list-style: none;
+margin: 10px;
+line-height: 30px;
+
+}
+
+article{
+
+color: white;
+margin-top: 30px;
+border-bottom: 1px solid #eee;
+
+}
+
+/*Lee la documentación*/
+article:first-child{
+border-top: 1px solid white;
+padding-top: 25px;
+
+}
+
+
+
+/*Aquí estoy diciendo seleccioname todos los elementos h2 que se encuentren dentro de article*/
+
+.article h2{
+
+
+
+}
+
+.clearfix{
+
+clear: both;
+
+}
+
+footer{
+
+background-color: black;
+color: white;
+text-align: center;
+height: 50px;
+line-height: 50px;
+}

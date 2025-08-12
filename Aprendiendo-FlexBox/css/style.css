@@ -1,0 +1,53 @@
+body{
+
+background-color: beige;
+
+}
+
+.flex-container{
+
+height: 600px;
+background-color: #ccc;
+border: 1px solid black;
+padding: 10px;
+display: flex;
+/* flex-direction: row;
+flex-wrap: wrap; */
+flex-flow: row wrap; /*Esto como si usaras flex-direction y flex wrap al mismo tiempo*/
+justify-content: center;
+align-items: center;
+
+}
+
+.caja{
+
+border: 1px solid black;
+background-color: white;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+width: 200px;
+height: 200px;
+line-height: 200px;
+text-align: center;
+margin: 2px;
+
+}
+
+.c1{
+background-color: lightblue;
+order: 1;
+
+}
+
+.c2{
+background-color: lightcoral;
+order: 2;
+}
+
+.c3{
+
+background-color: lightgreen;
+order:3;
+
+}

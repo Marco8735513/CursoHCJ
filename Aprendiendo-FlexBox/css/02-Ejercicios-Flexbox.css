@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+
+}
+
+li {
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(123, 198, 199, 0.8);
+    list-style: none;
+}

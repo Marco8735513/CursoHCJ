@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aprendiendo CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div id="container">
+
+        <header>
+
+            <h1>CSS Introduccion</h1>
+
+        </header>
+
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="index.html">Cursos</a>
+
+                </li>
+
+                <li>
+                    <a href="index.html">Progreso</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <!--Este div vacio indica que ningun elemento flotante ni a la izquierda ni a la derecha puede estar a su lado, lo que hace que cualquier contenido posterior comience por debajo y se restaura el flujo normal -->
+        <div class="clearfix"></div> <!--Chechar el css-->
+
+        <!--Esto es para pura semantica, en realidad section se usa para organizar una parte especifica de la pagina, velo como si fuera un periodico-->
+        <section id="content">
+
+
+            <!--article se usa para mostrar cada unidad que contienen un contenido-->
+            <article class="article">
+
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+
+            </article>
+
+            <article class="article">
+
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+
+            </article>
+
+            <article class="article">
+
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+
+            </article>
+
+        </section>
+
+        <!--Esto es una etiqueta que indica que contiene contenido adicional como por ejemplo un anuncio,es como un div pero con un significado semantico diferente-->
+        <aside>
+            <h2>Barra lateral</h2>
+
+            <form>
+                <input type="text">
+                <input type="submit" value="Buscar">
+
+            </form>
+
+        </aside>
+
+        <div class="clearfix"></div>
+
+        <footer>Marco</footer>
+
+    </div>
+
+
+</body>
+
+</html>
