@@ -1,0 +1,22 @@
+/*Si hablamos de unidades de medida a las fuentes no se les suele poner porcentaje, se le suele poner pixeles*/
+
+/*Existen las medidas absolutas y las medidas relativas
+
+Absolutas: Siempre representan un valor fijo.
+
+Relativas: Dependen de otro valor de referencia (El tamaño de la fuente, de un contenedor o la ventana del navegador).
+
+*/
+
+
+.caja{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+width: 40%;
+height: 30%;
+font-size: 20px;
+background-color: lightcoral;
+border: 1px solid black;
+margin: 0 auto ;
+}
+
